@@ -7,10 +7,8 @@ const assertEqual = function(actual, expected) {
   }
 }
 
-const _ = require('lodash');
-
-function head(theArray) {
-    return _.head(theArray);
+const head = function(array) {
+    return array[0];
 
 };
 
