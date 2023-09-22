@@ -11,7 +11,7 @@ const assertArraysEqual = function(arr1, arr2) {
 };
 
 
-const takeUntil = function(array, callback) {
+const takeUntil = (array, callback) => {
   const result = [];
   
   for (const item of array) {
