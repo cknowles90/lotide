@@ -12,18 +12,19 @@ const assertArraysEqual = function(arr1, arr2) {
 
 
 const takeUntil = (array, callback) => {
-  const result = [];
-  
-  for (const item of array) {
-    if (!callback(item)) {
-      result.push(item);
-    } else {
-      break;
-    }
+
+    let end = array.findIndex(callback);
+    return array.slice(0, end)
   }
   
-  return result;
-};
+  // const result = [];
+  
+  // for (const item of array) {
+  //   if (!callback(item)) { // checking if the callback returns a falsy value
+  //     result.push(item);  // if falsy, pushes the item into the empty result array
+  //   } else {
+  //     break; // if callback finds a truthy value it breaks from the loop
+  //   }
 
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 const results1 = takeUntil(data1, x => x < 0);
