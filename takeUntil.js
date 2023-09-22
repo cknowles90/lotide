@@ -13,8 +13,8 @@ const assertArraysEqual = function(arr1, arr2) {
 
 const takeUntil = (array, callback) => {
 
-    let end = array.findIndex(callback);
-    return array.slice(0, end)
+    let end = array.findIndex(callback); // uses .findIndex to find the index where the callback function returns truthy
+    return array.slice(0, end) // uses .slice to create a slice of the array up to (not including) that index
   }
   
   // const result = [];
