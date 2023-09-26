@@ -1,0 +1,9 @@
+l.txt
+hello there Vim, i hope you are having a nice day! 
+hello there Vim, i hope you are having a nice day! 
+hello there Vim, i hope you are having a nice day! 
+hello there Vim, i hope you are having a nice day! 
+hello there Vim, i hope you are having a nice day! 
+hello there Vim, i hope you are having a nice day! 
+hello there Vim, i hope you are having a nice day! 
+hello there Vim, i hope you are having a nice day! 

@@ -1,7 +1,0 @@
-const head = require('../head');
-const assertEqual = require('../assertEqual');
-
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
-assertEqual(head([])); // should yield 'undefined'
-assertEqual(head([77]), 77); // should still yield '77'
